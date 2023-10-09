@@ -1,0 +1,38 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "author": "telegram mybeaumarchais",
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "epic-spinners": "^2.0.0",
+    "jwt-decode": "^3.1.2",
+    "vee-validate": "^4.9.3",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "dotenv-webpack": "^8.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^16.8.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.4"
+  }
+}

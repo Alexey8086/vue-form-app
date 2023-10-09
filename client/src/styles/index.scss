@@ -1,0 +1,9 @@
+@import './libs/reset.scss';
+@import './libs/fonts.scss';
+
+#app {
+    font: var(--font-m);
+    background: #E4EDF5;
+    color: black;
+    min-height: 100vh;
+}
