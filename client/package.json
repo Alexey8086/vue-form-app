@@ -6,7 +6,8 @@
   "license": "ISC",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js"
+    "build": "webpack build",
+    "start": "webpack-dev-server --config --open webpack.config.js"
   },
   "proxy": "http://localhost:5000",
   "dependencies": {
@@ -15,6 +16,7 @@
     "jwt-decode": "^3.1.2",
     "vee-validate": "^4.9.3",
     "vue": "^3.2.31",
+    "vue-form-app": "file:..",
     "vue-router": "^4.0.12",
     "vuex": "^4.0.2",
     "yup": "^1.1.1"

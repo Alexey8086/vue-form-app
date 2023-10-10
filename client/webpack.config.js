@@ -64,7 +64,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            outputPath: path.resolve(__dirname, 'dist', 'images'),
+                            // outputPath: path.resolve(__dirname, 'dist', 'images'),
                         },
                     },
                 ],
@@ -86,6 +86,7 @@ module.exports = {
         compress: true,
         port: 3000,
         hot: true,
+        open: true
     },
 
 }

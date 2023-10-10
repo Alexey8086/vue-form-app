@@ -1,0 +1,110 @@
+.container {
+    margin-top: 30px;
+    padding: 30px 20px 20px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 800px;
+    background-color: #fff;
+    box-shadow: -1px 2px 11px 0px rgba(0, 0, 0, 0.5);
+
+    img {
+        position: absolute;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .progress-bar {
+        padding: 50px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #ccc;
+
+        .progress-bar__line {
+            width: 100%;
+            height: 15px;
+            border-radius: 15px;
+            background-color: #e9e9e9;
+
+            .progress-bar__line__width {
+                background-color: #60bf48;
+                border-radius: 15px;
+                height: 100%;
+            }
+        }
+
+        .progress-bar__description {
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            span:nth-child(1) {
+                font-weight: bold;
+            }
+
+            span:nth-child(2) {
+                font-size: 1.3rem;
+                color: #a8a8a8;
+            }
+        }
+    }
+
+    .conditions {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .conditions__item {
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            span:nth-child(1) {
+                color: #767676;
+                font-size: 1.3rem;
+                font-weight: 200;
+            }
+
+            span:nth-child(2) {
+                font-size: 1.3rem;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        border-bottom: 1px solid #ccc;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        a {
+            font-size: 1.2rem;
+            color: rgb(88, 169, 255);
+        }
+    }
+
+    .btn-submit {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 80%;
+        height: 70px;
+        border-radius: 60px;
+        background-color: #ff3939;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
